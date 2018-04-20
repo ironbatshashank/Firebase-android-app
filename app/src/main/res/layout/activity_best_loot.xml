@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.shashank.GamuChacha.BestLoot">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/batmfa__"
+        android:text="ABOUT US"
+        android:textSize="37dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="42dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="1. This app is developed by team ironbat in guidance of Mr. Vedant Mehta. \n\n 2. This android app is submitted to Upasna Joshi Ma'am. \n\n 3. This app was developed as DBMS project for 4th semester. \n\n 4. The team ironbat consists of \n \t\t\t\t\t\t\t\t\t\t 1. Shashank Srivastava  \n \t\t\t\t\t\t\t\t\t\t  2. Sakshi Jha  \n \t\t\t\t\t\t\t\t\t\t  3. Fahad Mehfooz." />
+
+</RelativeLayout>

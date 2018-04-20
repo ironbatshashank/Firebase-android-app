@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@drawable/back">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home">
+        </item>
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Upload user data" />
+        <item
+            android:id="@+id/data"
+            android:icon="@drawable/ic_menu_share"
+            android:title="USer data" />
+    </group>
+
+    <item android:title="Content Creator">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Abouts us" />
+        </menu>
+    </item>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Share" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Help and support" />
+        </menu>
+    </item>
+
+</menu>
